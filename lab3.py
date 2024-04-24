@@ -19,7 +19,7 @@ def ex2():
         if word != "stop":
             result += word + " "
 
-    print("Результат:", result.strip())
+    print("Результат:", result)
 print(ex2())
 def ex3():
     word = input("Введите слово: ")
