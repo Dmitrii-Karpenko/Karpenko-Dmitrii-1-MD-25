@@ -1,4 +1,4 @@
-def z1():
+def ex1():
     class Restuarant:
         def __init__(self, restaurant_name, cuisine_type):
             self.restaurant_name = restaurant_name
@@ -15,8 +15,8 @@ def z1():
     print(f"Тип кухни: {newRestaurant.cuisine_type}.")
     newRestaurant.describe_restaurant()
     newRestaurant.open_restaurant()
-z1()
-def z2():
+ex1()
+def ex2():
     class Restuarant:
         def __init__(self, restaurant_name, cuisine_type):
             self.restaurant_name = restaurant_name
@@ -35,9 +35,9 @@ def z2():
     newRestaurant1.describe_restaurant()
     newRestaurant2.describe_restaurant()
     newRestaurant3.describe_restaurant()
-z2()
+ex2()
 
-def z3():
+def ex3():
     class Restuarant:
         def __init__(self, restaurant_name, cuisine_type, rating=0):
             self.restaurant_name = restaurant_name
@@ -57,4 +57,4 @@ def z3():
     print(f"Рейтинг ресторана {newRestaurant.restaurant_name}: {newRestaurant.rating}")
 
     newRestaurant.updaterating(5)
-z3()
+ex3()
