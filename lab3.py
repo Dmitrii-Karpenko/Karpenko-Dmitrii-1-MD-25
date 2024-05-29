@@ -22,10 +22,12 @@ def ex2():
     print("Результат:", result)
 print(ex2())
 def ex3():
-    word = input("Введите слово: ")
-
-    if 'ф' in word:
-        print("Ого! Это редкое слово!")
-    else:
-        print("Эх, это не очень редкое слово...")
+    n = int(input("Сколько слов вы хотите ввести: "))
+    for i in range(n):
+        word = input("Введите слово: ")
+    
+        if 'ф' in word:
+            print("Ого! Это редкое слово!")
+        else:
+            print("Эх, это не очень редкое слово...")
 print(ex3())
