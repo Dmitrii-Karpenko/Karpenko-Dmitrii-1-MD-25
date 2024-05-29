@@ -21,3 +21,9 @@ def ex2():
 print (ex2())
 
 def ex3():
+    week = ("Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье")
+    weekend = week[-weekendnumber:]
+    work = week[:-weekendnumber]
+    print("Ваши выходные дни:", ",".join(weekend))
+    print("Ваши рабочие дни:", ",".join(work))
+print(ex3())
